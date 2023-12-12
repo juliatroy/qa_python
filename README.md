@@ -6,7 +6,8 @@ My name is Julia Troy (Smoliy) and here's my Yandex.Practicum project for Sprint
 The list of test methods that can be found in test.py is the following:
 * test_add_new_book_add_two_books_total_two_books_added - pre-coded test, that initially was not running. I've updates one of the methods' names to make it work.
 * test_add_new_book_add_same_book_twice_total_one_book_added - adds the same book twice, expects that it is added just once;
-* test_add_new_book_add_book_name_longer_than_40_symbols_no_book_added - adds a book with a name which is longer than 40 symbols threshold set for a book name.
+* test_add_new_book_add_book_name_longer_than_40_symbols_no_book_added - parametrized, adds a book with a name which is longer than 40 symbols threshold set for a book name.
+* test_add_book_library_adds_5items - adds a book library containing 5 books;
 * test_add_book_set_genre_for_existent_genre_name_genre_is_set - parametrized set that adds a book and sets a genre for each genre available;
 * test_set_book_genre_for_non_existent_genre_name_genre_not_set - adds a book and attempts to set a genre that is not listed in genres list;
 * test_get_books_with_specific_genre_book_library_contains_one_book_per_genre - uses fixture that adds a books library, which contains 1 book per genre;
